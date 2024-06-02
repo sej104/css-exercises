@@ -8,12 +8,11 @@
     font-size: 36px;
 }
 
-.third {
-    font-size: 24px;
-}
-
 #fourth {
     background-color: hsl(100, 82%, 62%);
-    font-size: 24px;
     font-weight: 700;
+}
+
+.adjust-font-size {
+    font-size: 24px;
 }
