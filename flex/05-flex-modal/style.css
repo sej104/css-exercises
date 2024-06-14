@@ -69,29 +69,25 @@ button.cancel {
 }
 
 
-
-.header {
-  font-weight: bold;
-  font-size: 20px;
-}
-
 .modal {
   display: flex;
   gap: 20px;
   padding: 20px;
 }
 
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .icon {
   flex-shrink: 0;
 }
 
-.header-container,
-.text {
+.header {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
