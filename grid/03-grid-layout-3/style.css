@@ -120,3 +120,7 @@ ul {
   justify-self: left;
 }
 
+.nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
