@@ -5,6 +5,10 @@
 
 .container {
   text-align: center;
+
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 4px;
 }
 
 .container div {
@@ -17,6 +21,11 @@
 
 .header {
   background-color: #393f4d;
+
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
 }
 
 .menu ul,
@@ -88,4 +97,17 @@
 .footer p {
   font-size: 13px;
   font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.header .logo {
+  justify-self: left;
 }
