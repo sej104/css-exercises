@@ -124,3 +124,9 @@ ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
+.sidebar > div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
